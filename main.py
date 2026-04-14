@@ -63,7 +63,7 @@ def admin_menu():
         print("\n--- Admin Area ---")
         print("1 - Process account request")
         print("2 - View account requests")
-        print("3 - Add bill")                 # ✅ ДОБАВИЛИ
+        print("3 - Add bill")
         print("4 - Process bill payment")
         print("5 - View bill queue")
         print("6 - Transaction history")
@@ -78,7 +78,7 @@ def admin_menu():
         elif choice == "2":
             show_requests()
 
-        elif choice == "3":  # ✅ НОВОЕ
+        elif choice == "3":
             add_bill()
 
         elif choice == "4":
